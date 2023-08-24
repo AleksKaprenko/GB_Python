@@ -3,11 +3,11 @@
 # 10 -> 1 2 4 8
 
 n=int(input("Введите число N: "))
-degree = 0
-i = 0
+degree = 1
+i = 1
 result=[]
 while degree <= n:
+    result.append(degree)
     degree=2**i
     i+=1
-    if degree <=n : result.append(degree)
 print (result)
