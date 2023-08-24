@@ -6,13 +6,14 @@
 # n = 123 -> res = 6 (1 + 2 + 3)
 # n = 100 -> res = 1 (1 + 0 + 0)
 
-# def SumDigits(n):
+# def SumDigits(n, res1):
 #     # res = 0
-#     # print(n)
-#     if n == 0: return
-#     res += n%10
-#     print(res)
-#     SumDigits(n//10)
+#     if n == 0:
+#         return
+#     else: 
+#         res1 += n%10
+#         n//10
+#         SumDigits(n, res1)
 
 
 # n =11203351

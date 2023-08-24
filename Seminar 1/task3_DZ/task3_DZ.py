@@ -8,7 +8,7 @@
 # n = 385916 -> yes
 # n = 123456 -> no
 
-n = 385916
+n = 123456
 if len(str(n))==6:
     part1 = n//1000
     part2 = n%1000
@@ -18,8 +18,9 @@ if len(str(n))==6:
         part2_sum += part2%10
         part1//=10
         part2//=10
-    if part1_sum == part2_sum:
-        print(f"yes: {part1_sum} = {part2_sum}")
-    else: print("no")
+    # if part1_sum == part2_sum:
+    #     print(f"yes: {part1_sum} = {part2_sum}")
+    # else: print("no")
+    print(['no' , 'yes'][part1_sum==part2_sum])
 else: print("Кол-во цифр билета отлично от 6")
 
