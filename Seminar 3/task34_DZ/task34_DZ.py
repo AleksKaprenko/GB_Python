@@ -22,7 +22,7 @@ def count_vowels(arg1, arg2):
 
 # string_bear = input("Стихотворение Винни-Пуха одной строкой, фразы разделяйте пробелом: ")
 string_bear = "пара-ра-рам рам-пам-папам па-ра-па-да"
-vowels = set("аеёийоуэюяАЕЁИЙОУЭЮЯ")
+vowels = set("аеёиоуэюяАЕЁИОУЭЮЯ")
 print(string_bear)
 res = count_vowels(string_bear.split(), vowels)
 if len(res) > 1:
